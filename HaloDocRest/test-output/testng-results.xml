@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-07T14:32:55 IST" name="Suite" finished-at="2021-09-07T14:33:09 IST" duration-ms="13619">
+    <groups>
+    </groups>
+    <test started-at="2021-09-07T14:32:55 IST" name="Test" finished-at="2021-09-07T14:33:09 IST" duration-ms="13619">
+      <class name="haloDocRest.testcases.TC1_RunCurrency">
+        <test-method is-config="true" signature="baseFunction()[pri:0, instance:haloDocRest.testcases.TC1_RunCurrency@1af2d44a]" started-at="2021-09-07T14:32:55 IST" name="baseFunction" finished-at="2021-09-07T14:32:57 IST" duration-ms="1927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseFunction -->
+        <test-method signature="getID()[pri:0, instance:haloDocRest.testcases.TC1_RunCurrency@1af2d44a]" started-at="2021-09-07T14:32:57 IST" name="getID" finished-at="2021-09-07T14:33:08 IST" duration-ms="10728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getID -->
+        <test-method signature="getCurrencyVal()[pri:0, instance:haloDocRest.testcases.TC1_RunCurrency@1af2d44a]" started-at="2021-09-07T14:33:08 IST" name="getCurrencyVal" finished-at="2021-09-07T14:33:09 IST" depends-on-methods="haloDocRest.testcases.TC1_RunCurrency.getID" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrencyVal -->
+      </class> <!-- haloDocRest.testcases.TC1_RunCurrency -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
